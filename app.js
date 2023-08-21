@@ -12,7 +12,7 @@ db.prepare('CREATE TABLE IF NOT EXISTS restaurants (id INTEGER PRIMARY KEY AUTOI
 
 // middleware aktivieren
 app.use(express.json());
-app.use(express.static(__dirname + '/assets'));
+app.use(express.static(__dirname + '/resources'));
 
 /* API ENDPUNKTE */
 
