@@ -14,6 +14,7 @@ db.prepare('CREATE TABLE IF NOT EXISTS restaurants (id INTEGER PRIMARY KEY AUTOI
 app.use(express.json());
 app.use(express.static(__dirname + '/files'));
 
+
 /* API ENDPUNKTE */
 
 // alle restaurants abfragen
